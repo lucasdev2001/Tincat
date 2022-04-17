@@ -12,7 +12,7 @@ header {
 }
 
 .features {
-  padding:9% 15% 7%;
+  padding:9% 0 7%;
   z-index: 1;
   position: relative;
   background-color: white;
@@ -49,6 +49,9 @@ header {
   margin-bottom: 1rem;
 }
 
+.icon:hover {
+  color: #3DC4FF;
+}
 footer{
   padding: 3% 15% 7%;
 }
@@ -65,7 +68,9 @@ footer i {
 .title-image {
   transform: rotate(20deg);
   position: absolute;
+  top: 50px;
   z-index: 0;
+  width:320px;
 }
 
 .grow {
@@ -87,6 +92,7 @@ footer i {
   .title-image {
     transform: rotate(0deg) !important;
     position: relative;
+    top: 0;
   }
 
 
