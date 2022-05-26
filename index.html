@@ -16,8 +16,8 @@
   <!-- Barra de navegação -->
   <nav class="navbar navbar-dark  navbar-expand-lg">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img id="cat0" src="./images/cat2.png" alt="" width="70px" class="d-inline-block align-text-top grow">
+      <a class="navbar-brand">
+        <img id="cat0" src="./images/cat2.png"   width="70px" class="d-inline-block align-text-top grow pointer">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,9 +25,11 @@
       </button>
       <div class="collapse navbar-collapse justify-content-lg-end text-center" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link" href="#contato">Contato</a>
-          <a class="nav-link" href="#prices">Preços</a>
-          <a class="nav-link" href="#download">Download</a>
+          <a class="nav-link pointer" id="language"><b>pt-BR</b> | <b>en</b> </a>
+          <a class="nav-link" href="#contato"   id="navContact">Contact</a>
+          <a class="nav-link" href="#prices"    id="navPrices">Prices</a>
+          <a class="nav-link" href="#download"  id="navDownload">Download</a>
+          
         </div>
       </div>
     </div>
@@ -39,16 +41,16 @@
       <div class="row text-lg-start text-center">
         <div class="col-lg-6">
           <h1 id="heading" class="display-3">tincat</h1>
-          <h2 class="mt-5 display-6 mb-4">Ache para seu amigo gatuno um companheiro felino <span><img id="cat1"
-                src="./images/cat.png" alt="" width="60px" class="d-inline-block align-text-top grow pointer"></span>
-          </h2>
+          <h2 class="mt-5 display-6 mb-4" ><span id="headerSubtitle">Find for your kitty cat a feline best friend </span>
+          <span><img id="cat1"src="./images/cat.png"   width="60px" class="d-inline-block align-text-top grow pointer">
+          </span></h2>
           <button type="button" class="btn btn-dark btn-lg download-button"><i
               class="fab fa-apple"></i>Download</button>
           <button type="button" class="btn btn-outline-light btn-lg download-button m-2"><i
               class="fab fa-google-play"></i> Download</button>
         </div>
         <div class="col-lg-6 d-flex justify-content-center"> <img class="title-image mt-5 grow"
-            src="./images/iphone6.png" alt=""></div>
+            src="./images/iphone6.png"  ></div>
       </div>
   </header>
 
@@ -58,18 +60,18 @@
       <div class="row text-center">
         <div class="col-lg-4 col-12">
           <i class="icon fas fa-check-circle fa-4x"></i>
-          <h6 class="fs-2 fw-light">Fácil de usar</h6>
-          <p class=" fs-4 fw-lighter text-black-50">(até seu gato conseguiria).</p>
+          <h6 class="fs-2 fw-light" id="firstFeature">Easy to use</h6>
+          <p class=" fs-4 fw-lighter text-black-50" id="firstSubFeature">(Even your cat could do it)</p>
         </div>
         <div class="col-lg-4 col-12">
           <i class="icon fas fa-bullseye fa-4x"></i>
-          <h6 class="fs-2 fw-light">Vasta clientela</h6>
-          <p class=" fs-4  fw-lighter text-black-50">Todos os tipos de gatinnhos. </p>
+          <h6 class="fs-2 fw-light" id="secondFeature">vast clientele</h6>
+          <p class=" fs-4  fw-lighter text-black-50" id="secondSubFeature">All kinds of kittens.</p>
         </div>
         <div class="col-lg-4 col-12">
           <i class="icon fas fa-heart fa-4x"></i>
-          <h6 class="fs-2 fw-light">Satisfação Garantida</h6>
-          <p class=" fs-4 fw-lighter text-black-50">Ache um amigo para seu gatinho ou devolvemos seu dinheiro</p>
+          <h6 class="fs-2 fw-light" id="thirdFeature">Satisfaction Guaranteed</h6>
+          <p class=" fs-4 fw-lighter text-black-50" id="thirdSubFeature">Find a friend for your kitty or we'll refund your money</p>
         </div>
       </div>
   </section>
@@ -80,25 +82,19 @@
       <div class="carousel-item container-fluid">
         <div class="row d-flex justify-content-center text-center">
           <div class="col-lg-6">
-            <h1 class="display-6 fst-italic mt-3">"-Graças ao Tincat meu gato achou uma coleguinha malhada. chega de
-              passeios
-              solitários"</h1>
+            <h1 class="display-6 fst-italic mt-3" id="firstSlide">"-Thanks to Tincat, my cat found a tabby friend. Enough of lonely walks"</h1>
           </div>
           <div class="col-lg-12"><img src="./images/profile01.jpg" class="testimonial-image grow img-fluid" alt="...">
-            <em>Lucas,
-              Brasília</em> </div>
+            <em>Lucas,Brasília</em> </div>
         </div>
       </div>
       <div class="carousel-item active container-fluid">
         <div class="row d-flex justify-content-center text-center">
           <div class="col-lg-6">
-            <h1 class="display-6 fst-italic mt-3">"-Eu já estava cansado de cantar no telhado sozinho. obrigado Tincat!
-              Meow
-              Meow"</h1>
+            <h1 class="display-6 fst-italic mt-3" id="secondSlide">"-I was already tired of singing on the roof all alone. Thank you Tincat! Meow Meow"</h1>
           </div>
-          <div class="col-lg-12"><img src="./images/photo-1574158622682-e40e69881006.avif"
-              class="testimonial-image grow img-fluid" alt="..."> <em>Paçoca, São
-              Paulo</em> </div>
+          <div class="col-lg-12"><img src="./images/photo-1574158622682-e40e69881006.avif"class="testimonial-image grow img-fluid" alt="...">
+            <em>Paçoca, São Paulo</em> </div>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
@@ -116,22 +112,22 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-12 text-center">
-          <h1 class="display-6 fst-italic">Planos para todos os públicos</h1>
-          <p class="mb-5 lead">Preços simples e que cabem no seu bolso</p>
+          <h1 class="display-6 fst-italic" id="pricesTitle">A plan for every person</h1>
+          <p class="mb-5 lead" id="pricesSubtitle">Simple prices for all bugdets.</p>
         </div>
         <div class="col-12">
           <div class="row">
             <div class="col-lg-4 mt-2">
               <div class="card text-center">
                 <div class="card-header bg-secondary text-white">
-                  <h4 class="fw-normal">Siamês</h4>
+                  <h4 class="fw-normal">Siamese</h4>
                 </div>
                 <div class="card-body">
-                  <h3 class="card-title">Gratuíto</h3>
-                  <p class="card-text">5 matches por dia</p>
-                  <p class="card-text">10 mensagens por dia</p>
-                  <p class="card-text">Uso ilimitado do app</p>
-                  <a href="#" class="btn btn-outline-success">Cadastrar</a>
+                  <h3 class="card-title">Free</h3>
+                  <p class="card-text">5 Matches Per Day</p>
+                  <p class="card-text">10 Messages Per Day</p>
+                  <p class="card-text">Unlimited App Usage</p>
+                  <button class="btn btn-outline-success">Sign Up</button>
                 </div>
               </div>
             </div>
@@ -141,11 +137,11 @@
                   <h4 class="fw-normal">Chartreux</h4>
                 </div>
                 <div class="card-body">
-                  <h3 class="card-title">$20/Mês</h3>
-                  <p class="card-text">matches ilimitados</p>
-                  <p class="card-text">mensagens ilimmitadas</p>
-                  <p class="card-text">Uso ilimitado do app</p>
-                  <a href="#" class="btn btn-outline-dark">Assinar</a>
+                  <h3 class="card-title">$20/M</h3>
+                  <p class="card-text">Unlimited Matches</p>
+                  <p class="card-text">Unlimited Messages</p>
+                  <p class="card-text">Unlimited App Usage</p>
+                  <button class="btn btn-outline-dark">Sign Up</button>
                 </div>
               </div>
             </div>
@@ -155,12 +151,12 @@
                   <h4 class="fw-normal">sphynx</h4>
                 </div>
                 <div class="card-body">
-                  <h3 class="card-title">$40/Mês</h3>
-                  <p class="card-text">Fila prioritária</p>
-                  <p class="card-text">matches ilimitados</p>
-                  <p class="card-text">mensagens ilimmitadas</p>
-                  <p class="card-text">Uso ilimitado do app</p>
-                  <a href="#" class="btn btn-outline-dark">Assinar</a>
+                  <h3 class="card-title">$40/M</h3>
+                  <p class="card-text">Pirority Listing</p>
+                  <p class="card-text">Unlimited Matches</p>
+                  <p class="card-text">Unlimited Messages</p>
+                  <p class="card-text">Unlimited App Usage</p>
+                  <button class="btn btn-outline-dark">Sign Up</button>
                 </div>
               </div>
             </div>
@@ -175,13 +171,13 @@
     <div class="container-fluid">
       <div class="row d-grid gap-5 justify-content-center text-center">
         <div class="col-12">
-          <h1 class="display-4 text-light"> Encontre agora o amigo perfeito para seu gatinho</h1>
+          <h1 class="display-4 text-light" id="downloadAreaTitle"> Find the perfect friend for your kitty now </h1>
         </div>
         <div class="col-12"> <button type="button" class="btn btn-dark btn-lg download-button"><i
               class="fab fa-apple"></i>Download</button>
           <button type="button" class="btn btn-outline-light btn-lg download-button m-2"><i
               class="fab fa-google-play"></i> Download</button></div>
-        <div class="col-12"> <img src="images/cat4.png" alt="" class="grow pointer" id="cat2"></div>
+        <div class="col-12"> <img src="images/cat4.png"   class="grow pointer" id="cat2"></div>
       </div>
   </section>
 
