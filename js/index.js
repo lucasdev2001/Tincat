@@ -26,6 +26,11 @@ $('#language').click(function (){
 
     $("#headerSubtitle").text("Ache para seu amigo gatuno um companheiro felino");
 
+    //navBar
+
+    $('#navContact').text("contato")
+    $('#navPrices').text("preços")
+
     //características
 
     $("#firstFeature").text("Fácil de usar");
